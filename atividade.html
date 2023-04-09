@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade</title>
+</head>
+<body>
+<form action="parametros.asp" method="post">
+<fieldset>
+<legend>dados pessoais</legend>
+<label for="name_id"> nome:</label>
+<input id="nome_id" type="text">
+</fieldset>
+
+<fieldset>
+<legend>formação</legend>
+<label for="curso"> curso:</label>
+<input type="text">
+</fieldset>
+
+<fieldset>
+<legend> idade</legend>
+<input type="number">
+</fieldset>
+</form>
+
+
+<fieldset>
+<legend>comidass</legend>
+<label for="comida">comida:</label>
+<datalist id="comidas_id">
+<option value="batata">
+<option value="cenoura">
+<option value="manga">
+<option value="maça">
+</datalist>
+<input id="comidas_id" type="text" list="comidas_id">
+</fieldset>
+
+<fieldset>
+<legend>digite seu email</legend>
+<label for="email">email:</label>
+<input type="email" name="email" id="email_id">
+<input type="submit" value="enviar">
+</fieldset>
+
+<h1>exemplo</h1>
+<a href="#link">brasil</a>
+<img src="http://ifpi.edu.br/topo_ifpi.png" alt="logotipo IFPI">
+<img src="minha imagem" alt="descriçao">
+
+<a href="http://ifpi.edu.br">
+<img src="http://ifpi.edu.br/topo_ifpi.png" alt="logotipo">
+</a>
+
+
+
+<br>um dia
+<select name="um dia"> 
+<option value="domingo">domingo</option>
+<option value="segunda">segunda</option>
+<option value="terça">terça</option>
+<option value="quarta">quarta</option>
+</select>
+</body>
+</html>
