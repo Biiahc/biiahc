@@ -1,0 +1,54 @@
+.gerais{
+display: inline;
+float: left;
+background-image: url("imagem1.png");
+background-position:right bottom ;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.local{
+background-image: url("endereco.png") ;
+background-position: right bottom;
+background-repeat: no-repeat;
+background-size: contain;
+display: inline;
+float: left;
+}
+
+.faixa1{
+display: inline;
+float: left;
+padding: 10px;
+}
+
+.faixa2{
+display: inline;
+float: left;
+padding: 10px;
+}
+
+.faixa-etaria{
+display: inline;
+float: left;
+background-image:url("pessoas.jpeg");
+background-position: right bottom;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.fieldset{
+
+background: #dcdcdc;
+
+}
+
+.esportes{
+display: inline;
+float:left;
+background-image: url("imagem\ 4.jpeg");
+background-position: right bottom;
+background-repeat: no-repeat;
+background-size: contain;
+
+}
